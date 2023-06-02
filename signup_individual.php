@@ -25,7 +25,7 @@
     <!-- * loader -->
 
     <!-- App Header -->
-    <div class="appHeader no-border transparent position-absolute">
+    <div class="appHeader no-border transparent position-absolute bg-success">
         <div class="left">
             <a href="javascript:;" class="headerButton goBack">
                 <ion-icon name="chevron-back-outline"></ion-icon>
@@ -59,13 +59,28 @@
                             </i>
                         </div>
                         <div class="input-wrapper">
-                            <input type="email" class="form-control" id="name1" placeholder="নামের প্রথম অংশ">
+                            <input type="email" class="form-control" id="name1" placeholder="নামের শেষ অংশ">
                             <i class="clear-input">
                                 <ion-icon name="close-circle"></ion-icon>
                             </i>
                         </div>
                     </div>
-
+                    <div class="form-group boxed">
+                        <div class="input-wrapper">
+                            <select name="country" id="country" class="form-control">
+                                <option value="">দেশ </option>
+                                <option value="">বাংলাদেশ </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group boxed">
+                        <div class="input-wrapper">
+                            <select name="country" id="country" class="form-control">
+                                <option value="">শহর </option>
+                                <option value="">ঢাকা </option>
+                            </select>
+                        </div>
+                    </div>
                     <div class="form-group boxed">
                         <div class="input-wrapper">
                             <input type="email" class="form-control" id="email1" placeholder="Email address">

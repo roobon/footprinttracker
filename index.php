@@ -55,24 +55,7 @@
                 <form action="app-pages.html">
 
                     <div class="form-check">
-                        <!-- <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-  <label class="form-check-label" for="exampleRadios1">
-    ব্যক্তিগত
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-  <label class="form-check-label" for="exampleRadios2">
-    Second default radio
-  </label>
-</div>
-<div class="form-check disabled">
-  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
-  <label class="form-check-label" for="exampleRadios3">
-    Disabled radio
-  </label>
-</div> -->
-                        <div class="row">
+                        <div class="logintypes">
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" checked name="inlineRadioOptions" id="inlineRadio1" value="option1" />
                                 <label class="form-check-label" for="inlineRadio1">ব্যক্তিগত</label>
@@ -84,7 +67,7 @@
                             </div>
                         </div>
 
-                        <div class="row">
+                        <div class="logintypes">
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" />
                                 <label class="form-check-label" for="inlineRadio3">প্রতিষ্ঠান</label>
@@ -94,7 +77,7 @@
                                 <label class="form-check-label" for="inlineRadio3">প্রোডাক্ট</label>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="logintypes">
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" />
                                 <label class="form-check-label" for="inlineRadio3">অন্যান্য</label>
@@ -122,13 +105,13 @@
 
 
                         <div>
-                            <button type="submit" class="btn btn-success btn-block btn-lg">সাবমিট</button>
+                            <button type="button" class="btn btn-success btn-block btn-lg">সাবমিট</button>
                         </div>
                         <div>
-                            <button type="submit" class="btn btn-primary btn-block btn-lg">গেস্ট লগইন</button>
+                            <button type="button" class="btn btn-primary btn-block btn-lg">গেস্ট লগইন</button>
                         </div>
                         <div>
-                            <a href="account_list.php" class="btn btn-primary btn-block btn-lg">নতুন একাউন্ট করুন</a>
+                            <a href="signup_individual.php" class="btn btn-primary btn-block btn-lg">নতুন একাউন্ট করুন</a>
 
                         </div>
                         <div class="form-links mt-2">
@@ -141,7 +124,7 @@
 
 
                 </form>
-                <img src="assets/img/partners.jpg" alt="image" width="100%">
+                <img src="assets/img/partners1.jpg" alt="image" width="100%">
             </div>
         </div>
 

@@ -3,6 +3,23 @@
     margin-top: 10px;
   }
 
-.row {
-  margin-left: 50px;
-}  
+ /* .logintypes {
+  margin-left:0;
+
+ } */
+
+
+/* .txt1 {
+  
+  padding: 0 2px 0 10px;
+  width: 80%;
+  
+} */
+#appCapsule {
+  margin-top: 30px;
+  border-top-left-radius: 10px;
+}
+
+.form-check {
+  padding-left: 0.25rem;
+}
